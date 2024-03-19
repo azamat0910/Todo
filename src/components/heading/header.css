@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@300;400;500;700&display=swap');
+header {
+  margin-top: 53px;
+}
+h1{ display: inline;
+  color: aliceblue;
+    width: 348px;
+    height: 81px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80.64px;
+    margin: auto;
+    position: relative;
+    padding-left: 20px;
+    font-family: Racing Sans One;
+    
+    /* background-color: pink; */
+}
+h1:before{ 
+    content: " ";
+    background: aliceblue;
+    width: 50px;
+    height: 2px;
+    /* располагаем линию сверху от текста */
+    top: 45px;
+    left: -40px;
+    /* включаем абсолютное позиционирование относительно блока с relative */
+    position: absolute;
+  }
+  h1:after{ 
+    content: " ";
+    background: aliceblue;
+    width: 50px;
+    height: 2px;
+    /* располагаем линию сверху от текста */
+    top: 45px;
+    right: -60px;
+    /* включаем абсолютное позиционирование относительно блока с relative */
+    position: absolute;
+  }

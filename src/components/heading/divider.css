@@ -1,0 +1,30 @@
+.logo{
+display: inline-block;
+margin: auto;    
+width: 72px;
+height: 32px;
+position: relative;
+
+}
+.logo:before{ 
+        content: " ";
+        background: aliceblue;
+        width: 240px;
+        height: 2px;
+        /* располагаем линию сверху от текста */
+        top: 16px;
+        left: -262px;
+        /* включаем абсолютное позиционирование относительно блока с relative */
+        position: absolute;
+}
+.logo:after{ 
+        content: " ";
+        background: aliceblue;
+        width: 240px;
+        height: 2px;
+        /* располагаем линию сверху от текста */
+        top: 16px;
+        left: 92px;
+        /* включаем абсолютное позиционирование относительно блока с relative */
+        position: absolute;
+}
