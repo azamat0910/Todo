@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    background-color: #2f2f2ffc;
+}
+
+
+.blockInput{
+   margin-top: 68px;
+
+}
+.blockForm {
+    display: flex;
+    /* background-color: blue; */
+    justify-content:center;
+}
+.textTask {
+    display: flex;
+    justify-content:space-between;
+    width: 826px;
+    height: 49px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    
+}
+.b{
+    width:100px;
+    color: black;
+    background-color: yellow;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.submitTask {
+    background: #4F4F4F;
+    border-radius: 20px;
+    border-width: 0px;
+    height: 52.5px;
+    width: 142px;
+    color:azure;
+    font-size: 25px;
+    font-family: Racing Sans One;
+    font-weight: 400;
+    line-height: 31.5px;
+    margin-left: -142px;
+    margin-top: 1px;
+    
+
+}
+
+.submitTask:hover {
+    cursor: pointer;
+}
+
+svg {
+    margin-left: -6px;
+    margin-top: -2px;
+}
+
+hr {
+    width: 966px;
+    margin-top: 35px;
+}
+ul {
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #222222;
+    width: 822px;
+    margin-bottom: 32px;
+    height: 38px;
+    /* margin-bottom: 30px; */
+    color:aliceblue;
+    align-items: center;
+    text-align: left;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+
+
+.todo {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+
+
+
+}
+
+button {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+
+}
+
+
